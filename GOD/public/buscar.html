@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<title>Saída</title>
+		<link rel="stylesheet" type="text/css" href="CSS/buscar.css"> 
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon.png" />
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
+	</head>
+
+	<body onload="done()">
+		<h1></h1>
+		<div id="comp-teorica">
+				<ul>
+					<form>
+  						<input type="text" name="search" id="search" placeholder="     Procurar carro...">
+					</form>
+				</ul>
+					<div id="coluna4">
+						<h3>Informações</h3>
+                	<div id="feedback"></div>
+				<ul>
+				<form id='form'>
+					Vaga:<br>
+						<div class ="feedback" id="feedback_vaga"></div><br>
+					Dono:<br>
+						<div class ="feedback" id="feedback_dono"></div><br>
+					Placa:<br>
+						<div class ="feedback" id="feedback_placa"></div><br>
+					Itens:<br>
+				</form>
+					<div class="dropdown">
+  						<button onclick="myFunction()" class="dropbtn">Clique Aqui!</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a>Arranhão</a>
+    					<a>Computador</a>
+   						<a>Mochila</a>
+  					</div>
+				</div>
+				<script src="Js/buscar.js"></script>
+				<form id="botao" >
+			    	<input type="button" id="concluir" value="Concluir" onClick="window.location.href='cupom.html'" onclick="del()" >
+				</form>
+
+				<form >
+			    	<input type="button" id="cancelar" value="Cancelar" onClick="window.location.href='inicial.html'">
+				</form>
+				</ul>
+			</div>			
+	</body>
+</html>

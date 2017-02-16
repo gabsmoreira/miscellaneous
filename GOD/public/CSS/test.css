@@ -1,0 +1,73 @@
+body {
+    background: url(../Img/wall.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Conteúdo*/
+
+#comp-teorica {
+	overflow: hidden;
+	text-align: center;
+	width: 700px;
+	height: 1500px;
+	margin: 0px auto;
+	padding: 0px 150px 110px 0px;
+}
+
+#comp-teorica h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#form {
+	font-size: 50px;
+    padding: 15px 40px 15px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+#coluna4 {
+	width: 600px;
+	height: 350px;
+	margin-top: 400px;
+	margin-right: 100px;
+	margin-left: 135px;
+	background: #EDEDED;
+	border-radius: 5%;
+}
+
+#usuario, #empresa, #estabelecimento {
+	border: 2px solid #ccc000;
+    border-radius: 15px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+input[type="text"]
+{
+    font-size:30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#entrar {
+	width: 300px;
+	margin-top:200px; 
+	text-align: center;
+	height: 300px;
+	background-color: #0CCC00;
+	font-size:40px;
+	font-weight: bold;
+	border-radius: 50%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#feedback {
+    font-size: 23px;
+    color: firebrick;
+}
+

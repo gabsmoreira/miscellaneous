@@ -1,0 +1,124 @@
+body {
+    background: url(../Img/wall.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Conteúdo*/
+
+#inicial {
+	overflow: hidden;
+	text-align: center;
+	width: 700px;
+	height: 1700px;
+	margin: 0px auto;
+	padding: 0px 150px 110px 0px;
+}
+
+#inicial h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#form {
+	font-size: 50px;
+    padding: 15px 40px 15px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+#nome,#empresa,#estabelecimento {
+	
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+input[type="text"] {
+    font-size:30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#entrar {
+	width: 350px;
+	margin-top: 120px; 
+    margin-left: 150px;
+	text-align: center;
+	height: 350px;
+	background-color: #13f113;
+	border: 2px solid #13f113;
+	font-size: 50px;
+	font-weight: bold;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#estac {
+	width: 350px;
+	margin-top: 100px; 
+    margin-left: 150px;
+	text-align: center;
+	height: 350px;
+	background-color: yellow;
+	border: 2px solid yellow;
+	font-size: 50px;
+	border-radius: 50%;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#sair {
+	width: 350px;
+	margin-top: 100px; 
+	text-align: center;
+    margin-left: 150px;
+	height: 350px;
+	background-color: red;
+	border: 2px solid red;
+	font-size: 50px;
+	font-weight: bold;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu', sans-serif;
+ }   
+    
+.container {
+    display: inline-block;
+    cursor: pointer;
+    height: 100px;
+}
+
+#concluir {
+	float: right;
+	width: 200px;
+	height: 130px;
+	margin-top: 120px; 
+	margin-right: -50px;
+	text-align: center;
+	background-color: grey;
+	border: 2px solid grey;
+	font-size: 40px;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#cancelar {
+	float: left;
+	width: 200px;
+	height: 130px;
+	margin-top: 120px; 
+	margin-left: 90px;
+	text-align: center;
+	background-color: grey;
+	border: 2px solid grey;
+	font-size: 40px;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu', sans-serif;
+}
